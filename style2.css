@@ -1,0 +1,153 @@
+body{
+    background-color: rgb(165, 220, 255);
+}
+
+nav{
+    margin-left: 60px;
+    border-color: #272727;
+    border-style: groove;
+    border-radius: 30px;
+    background-color: rgb(114, 187, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 90%;
+    top: 0px;
+    left: 0px;
+}
+
+#TITLE{
+    border-radius: 20px;
+    border-style: dashed;
+    border: #b30000;
+    color: #0a75cc;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    margin-left: 90px;
+    height: 33px;
+    width: 268px;
+}
+
+ul{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    margin-right: 90px;
+    gap: 50px;
+    display: flex;
+    list-style-type: none;
+    color:#0a75cc;
+    font-style: 15px;
+    line-height: 30px;
+}
+
+li:hover{
+    cursor: pointer;
+    color: #b30000;
+}
+
+a.no-underline {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a.no-underline:visited {
+    color: inherit;
+  }
+  
+#services{
+    display: flex;
+    justify-content: space-around;
+}
+
+#sanfourfastfoood{
+    border-style: groove;
+    border-color: #000000;
+   margin-left: 40%;
+    border-radius: 40px;
+    width: 20%;
+    margin-top: 100px;
+}
+
+.paragraph3-4{
+    border-style:groove ;
+    margin: 40px;
+    border-color: #000000;
+    border-radius: 20px;
+    background-color: rgb(114, 187, 255);
+    font-size: x-large;
+    display: inline-block;
+    color: #000000;
+    margin-left: 170px;
+    margin-right: 170px;
+    gap: 40px;
+    line-height: 30px;
+    }
+
+    p{
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+   #delivery{
+        margin-bottom: 20px;
+        margin-left: 25px;
+        border-style: groove;
+        border-color: #014b04;
+        border-radius: 40px;
+        width: 30%;
+        color: #000000;
+        background-color: rgb(114, 187, 255);
+    }
+
+    #inrestaurant{
+        margin-bottom: 20px;
+        margin-left: 25px;
+        border-style: groove;
+        border-color: #014b04;
+        border-radius: 40px;
+        width: 30%;
+        color: #000000;
+        background-color: rgb(114, 187, 255);
+    }
+
+    .tos{
+        font-style: initial;
+        color:#0760a8;
+        font-size: xx-large;
+        margin: 10px;
+        margin-left: 100px;
+        display: flex;
+        flex-direction: column;
+        line-height: 30px;
+    }
+
+    .dscrptn{
+        font-style: initial;
+        color:#8b0505;
+        font-size: x-large;
+        margin: 30px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        line-height: 30px;
+    }
+
+    .images{
+        border-style: groove;
+        border-color: #000000;
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-right: 30px;
+        margin-left: 50px;
+        margin-top: 10px;
+        width: 320px;
+        height: 290px;
+    }
+
+    h3{
+        font-size: xx-large;
+        color: #008a0b;
+        margin: 30px;
+        margin-left: 50px;
+    }
